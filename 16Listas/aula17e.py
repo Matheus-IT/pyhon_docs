@@ -1,0 +1,27 @@
+from time import sleep
+
+teste = list()
+print('Criei a lista Teste')
+sleep(2)
+teste.append('Matheus')
+print('Adicionei Matheus na lista Teste!')
+sleep(2)
+teste.append(17)
+print('Adicionei o nº17 a lista Teste')
+sleep(2)
+galera = list()
+print('Criei uma lista "Galera"')
+sleep(2)
+galera.append(teste)
+print('Galera recebe uma ligação com Teste')
+sleep(2)
+teste[0] = 'João'
+print('Teste na posição 0 recebe João')
+sleep(2)
+teste[1] = 22
+print('Teste na posição 1 recebe 22')
+sleep(1)
+print('Vou mostrar a lista galera')
+sleep(3)
+print(galera)
+print('Olha! Eu mudei em Teste mas refletiu em galera!!')
